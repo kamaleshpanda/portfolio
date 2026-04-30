@@ -1,7 +1,7 @@
 export default function ResumeLink({ isMenuOpen }: { isMenuOpen: boolean }) {
   return (
     <a
-      href="https://drive.google.com/file/d/1dMsg7bwPbUGcy__BP5nvV0wW0a2Ich0-/view?usp=sharing"
+      href="https://docs.google.com/document/d/1L2y2TM3TD2r1rUjH88PRzmgHETHV7nRG/edit?usp=sharing&ouid=114000409558114842724&rtpof=true&sd=true"
       target="_blank"
       rel="noopener noreferrer"
       className={`group text-primary-white bg-primary-black hover:text-primary-black hover:bg-primary-white hover:shadow-bottom md:flex-center h-14 w-[153px] gap-2 rounded px-4 py-3 transition-all active:translate-y-1 md:border-2 ${isMenuOpen ? "flex-center" : "hidden"}`}
