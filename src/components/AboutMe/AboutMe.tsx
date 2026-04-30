@@ -30,11 +30,9 @@ export default function AboutMe() {
             transition={{ duration: 1, type: "spring" }}
             viewport={{ once: true }}
           >
-            I’m a computer science student working with data science and 
-            machine learning, mainly through building projects and experimenting with 
-            ideas. Most of my learning has come from trying things on my own and 
-            applying concepts to real problems, which helped me 
-            understand how models actually work beyond theory.
+            I’m a Computer Science and Engineering student interested in data science and machine learning, mostly learning by 
+            building projects and experimenting with ideas. Working on real problems has helped me understand how models behave 
+            beyond just theory.
           </motion.p>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -42,12 +40,10 @@ export default function AboutMe() {
             transition={{ duration: 2, type: "spring" }}
             viewport={{ once: true }}
           >
-            I’ve worked on projects across machine learning, deep learning, and 
-            computer vision, including a motion-controlled system using real-time 
-            pose detection and a project focused on fairness in toxicity detection. 
-            Through these, I explored how models behave in real-world situations, 
-            particularly when facing 
-            challenges such as bias, accuracy, and reliability.
+            My projects span machine learning, deep learning, and computer vision.
+             These include a motion-controlled system using real-time pose detection and a project focused on fairness in toxicity detection. Through this work, 
+            I’ve seen how models perform in practical scenarios, especially when 
+            dealing with challenges like bias, accuracy, and reliability.
           </motion.p>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -55,10 +51,8 @@ export default function AboutMe() {
             transition={{ duration: 3, type: "spring" }}
             viewport={{ once: true }}
           >
-            I’m interested in how intelligent systems make decisions and how 
-            they can be improved to be more balanced and efficient. I like working 
-            with data, 
-            building models, and testing different approaches to solve problems.
+            I’m particularly interested in understanding how models make decisions and how their performance can be improved in 
+            real-world conditions.I enjoy working with data and building models, especially when exploring different approaches to solve problems.
           </motion.p>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -66,11 +60,8 @@ export default function AboutMe() {
             transition={{ duration: 4, type: "spring" }}
             viewport={{ once: true }}
           >
-            Currently, I’m focused on enhancing my skills in machine 
-            learning, deep learning, and computer vision, while continuing to
-            develop projects that reflect real-world use cases. I’m also 
-            looking for opportunities to learn, collaborate, and grow through 
-            practical experience.
+            Currently, the focus is on strengthening skills in machine learning, deep learning, and computer vision, while continuing to 
+            build projects with real-world applications. Also looking for opportunities to learn, collaborate, and gain hands-on experience.
           </motion.p>
         </article>
       </div>
