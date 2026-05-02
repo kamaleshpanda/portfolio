@@ -1,7 +1,6 @@
 import { ProjectType } from "./types/project";
 import project1Img from "./assets/project1.png";
 import project2Img from "./assets/project 2.png";
-import inProgressImg from "./assets/kalm.svg";
 
 export const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
