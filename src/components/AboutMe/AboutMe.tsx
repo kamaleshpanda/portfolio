@@ -1,4 +1,4 @@
-import boy from "../../assets/boy.svg";
+import aboutMeImg from "../../assets/aboutme.png";
 import { useCursorHover } from "../../hooks/useCursorHover";
 import { motion } from "motion/react";
 
@@ -11,7 +11,7 @@ export default function AboutMe() {
     >
       <div className="flex-center lg:w-1/2">
         <div className="bg-white rounded-2xl overflow-hidden w-full max-w-[460px] aspect-square flex items-center justify-center">
-          <img src={boy} alt="boy illustration" className="w-full h-full object-contain" />
+          <img src={aboutMeImg} alt="Kamalesh Panda" className="w-full h-full object-cover" />
         </div>
       </div>
       <div className="lg:w-1/2">
