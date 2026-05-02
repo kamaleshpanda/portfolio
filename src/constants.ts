@@ -51,17 +51,15 @@ export const projectsData: ProjectType[] = [
     }
   },
   {
-    imgSrc: inProgressImg,
-    imgAlt: "Project In Progress",
     number: 3,
-    title: "In Progress...",
-    description: "Currently working on something exciting! This project is in active development and more details will be updated here as soon as it's ready to showcase.",
-    demo: "#",
-    github: "#",
-    technologies: ["Building...", "Debugging..."],
+    title: "Real-Time Gesture Controlled Game System",
+    description: "Built a touchless interaction system that lets users control actions on their computer using real-time hand gestures. Integrated MediaPipe for precise hand tracking with OpenCV for live video processing, ensuring smooth and reliable performance. Optimized for low latency and consistency, creating a seamless and practical alternative to traditional input methods.",
+    demo: "https://github.com/kamaleshpanda/gestures-game-controller",
+    github: "https://github.com/kamaleshpanda/gestures-game-controller",
+    technologies: ["Python", "OpenCV", "MediaPipe"],
     ariaLabel: {
-      demo: "View Demo",
-      github: "View GitHub"
+      demo: "View Real-Time Gesture Controlled Game System demo",
+      github: "View Real-Time Gesture Controlled Game System GitHub"
     }
   }
 ];
